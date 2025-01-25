@@ -7,7 +7,6 @@ from fastapi.middleware.cors import CORSMiddleware
 import logging
 # from .blob_client import BlobClient
 import os 
-os.environ['BlobServiceClientConnStr'] = 'DefaultEndpointsProtocol=https;AccountName=cntxstorage7a1f4155;AccountKey=5KKTlwjwkozJgRqYj33pr3DxpCZuQ8gkvq1jm6i/CVnJrGkCpSgxKosTKTnH6W2GuBriw5EEC08A+AStYQvmkw==;EndpointSuffix=core.windows.net'
 app = FastAPI()
 
 app.add_middleware(
